@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React---Admin-Dashboard/static/css/main.f2dd0d55.css",
-    "main.js": "/React---Admin-Dashboard/static/js/main.5e964f0d.js",
+    "main.js": "/React---Admin-Dashboard/static/js/main.fe8b5891.js",
     "static/media/avatar.png": "/React---Admin-Dashboard/static/media/avatar.50454ec1cb0d4381ad88.png",
     "static/media/sahed.jpg": "/React---Admin-Dashboard/static/media/sahed.5f46f452cc52e8f46791.jpg",
     "index.html": "/React---Admin-Dashboard/index.html",
     "main.f2dd0d55.css.map": "/React---Admin-Dashboard/static/css/main.f2dd0d55.css.map",
-    "main.5e964f0d.js.map": "/React---Admin-Dashboard/static/js/main.5e964f0d.js.map"
+    "main.fe8b5891.js.map": "/React---Admin-Dashboard/static/js/main.fe8b5891.js.map"
   },
   "entrypoints": [
     "static/css/main.f2dd0d55.css",
-    "static/js/main.5e964f0d.js"
+    "static/js/main.fe8b5891.js"
   ]
 }
