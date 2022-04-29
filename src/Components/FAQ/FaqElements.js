@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {cardStyle} from "../ReusableStyle";
+import { cardStyle } from "../ReusableStyle";
 
 export const Section = styled.section`
   ${cardStyle}
@@ -8,8 +8,8 @@ export const Section = styled.section`
     h2 {
       color: #00ddff;
       font-family: "Permanent Marker", cursive;
-      letter-spacing: 0.2rem;
-      font-size: 1.2rem;
+      letter-spacing: 0.3rem;
+      font-size: 1.3rem;
     }
   }
 
@@ -24,7 +24,7 @@ export const Section = styled.section`
       align-items: center;
       justify-content: space-between;
       cursor: pointer;
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       font-family: "Montserrat", sans-serif;
 
       &:nth-of-type(2) {
@@ -41,7 +41,21 @@ export const Section = styled.section`
     }
 
     svg {
-      font-size: 1rem;
+      font-size: 1.4rem;
     }
+  }
+
+
+
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .title {
+      h2{
+        font-size: 1.2rem;
+        text-align: center;
+      }
+    }
+   svg {
+     font-size: 2rem !important;
+   }
   }
 `;

@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import scrollreveal from "scrollreveal";
 import { ResponsiveNav, SidebarContainer } from "./SidebarElements";
 import { BsFillChatTextFill } from "react-icons/bs";
 import { FaAddressCard } from "react-icons/fa";
@@ -13,6 +14,30 @@ import { VscChromeClose } from "react-icons/vsc";
 const Sidebar = () => {
   const [currentLinks, setCurrentLinks] = useState(1);
   const [navbarState, setNavbarState] = useState(false);
+
+  useEffect(() => {
+    const sr = scrollreveal({
+      origin: "left",
+      distance: "80px",
+      duration: 2000,
+      reset: false,
+    });
+    sr.reveal(
+      `.brand,
+      .Links>ul>li:nth-of-type(1),
+      .Links>ul>li:nth-of-type(2),
+      .Links>ul>li:nth-of-type(3),
+      .Links>ul>li:nth-of-type(4),
+      .Links>ul>li:nth-of-type(5),
+      .Links>ul>li:nth-of-type(6),
+      .logout
+ `,
+      {
+        opacity: 0,
+        interval: 300,
+      }
+    );
+  }, []);
 
   const showSidebar = () => setNavbarState(false);
 

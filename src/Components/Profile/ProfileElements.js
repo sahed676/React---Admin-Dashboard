@@ -38,11 +38,11 @@ export const Section = styled.section`
     }
     h5 {
       letter-spacing: 0.1rem;
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
 
     h2 {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
   }
 
@@ -51,7 +51,7 @@ export const Section = styled.section`
     gap: 1.1rem;
     .container {
       text-align: center;
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
   }
 

@@ -13,7 +13,7 @@ export const Section = styled.section`
       color: #00ddff;
       font-family: "Permanent Marker", cursive;
       letter-spacing: 0.2rem;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
   }
 
@@ -24,14 +24,14 @@ export const Section = styled.section`
     margin-top: 1rem;
   }
   .transactions {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     .transaction {
       display: flex;
       justify-content: space-between;
       align-items: center;
       &__title {
         display: flex;
-        gap: 0.7rem;
+        gap: 0.9rem;
         &__image {
           img {
             height: 2.5rem;
@@ -47,7 +47,7 @@ export const Section = styled.section`
         border-radius: 1rem;
         text-align: center;
         transition: 0.3s ease-in-out;
-        margin-left: 0.9rem;
+        margin-left: 2rem;
         &:hover {
           background-color: #00ddff;
 
@@ -97,7 +97,8 @@ export const Section = styled.section`
 
   .title{
     h2 {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
+      text-align: center;
     }
   }
 }

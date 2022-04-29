@@ -14,11 +14,15 @@ export const Section = styled.section`
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 0.3rem;
+      gap: 0.2rem;
       font-family: "Montserrat", sans-serif;
 
       h1 {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
+      }
+
+      h5 {
+        font-size: 1.2rem;
       }
 
       .growth {

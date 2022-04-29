@@ -37,7 +37,7 @@ export const SidebarContainer = styled.aside`
   }
 
   .brand span {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     color: #00ddff;
     font-family: "Permanent Marker", cursive;
     margin-left: -1rem;
@@ -46,6 +46,7 @@ export const SidebarContainer = styled.aside`
   .Links {
     display: flex;
     justify-content: center;
+    margin-bottom: 3rem;
   }
   .Links ul {
     list-style-type: none;
@@ -72,7 +73,7 @@ export const SidebarContainer = styled.aside`
     gap: 1rem;
     color: #fff;
     font-family: "Montserrat", sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .Links ul .active {
@@ -87,6 +88,8 @@ export const SidebarContainer = styled.aside`
     padding: 0.3rem 0.8rem;
     border-radius: 0.6rem;
 
+   
+
     &:hover {
       background-color: #da0037;
     }
@@ -98,6 +101,7 @@ export const SidebarContainer = styled.aside`
       justify-content: flex-start;
       color: #fff;
       font-family: "Montserrat", sans-serif;
+  
     }
   }
 
@@ -127,7 +131,7 @@ export const SidebarContainer = styled.aside`
         justify-content: flex-start;
 
         span {
-          font-size: 1.3rem;
+          font-size: 1.6rem;
         }
         svg {
           font-size: 1.6rem;

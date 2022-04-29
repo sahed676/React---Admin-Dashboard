@@ -6,11 +6,15 @@ export const Nav = styled.nav`
   color: #fff;
   font-family: "Montserrat", sans-serif;
 
-  .title h1 span {
-    margin-left: 0.5rem;
-    color: #00ddff;
-    letter-spacing: 0.2rem;
-    font-family: "Permanent Marker", cursive;
+  .title {
+    font-size: 1.2rem;
+
+    h1 span {
+      margin-left: 0.5rem;
+      color: #00ddff;
+      letter-spacing: 0.2rem;
+      font-family: "Permanent Marker", cursive;
+    }
   }
 
   .search {
@@ -18,7 +22,7 @@ export const Nav = styled.nav`
     display: flex;
     align-items: center;
     gap: 1rem;
-    padding: 0.3rem 0.3rem 0.5rem 0.6rem;
+    padding: 0.8rem 8rem 0.8rem 1rem;
     border-radius: 1rem;
 
     svg {
@@ -40,11 +44,17 @@ export const Nav = styled.nav`
     }
   }
 
-
-
-
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     flex-direction: column;
+    .title {
+      h1 {
+        span {
+          display: block;
+          text-align: center;
+          margin-top: 0.5rem;
+        }
+      }
+    }
   }
 
   .search {

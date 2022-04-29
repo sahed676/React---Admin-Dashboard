@@ -175,7 +175,7 @@ const Earning = () => {
       <div className="charts">
         <ResponsiveContainer height="100%" width="100%">
           <AreaChart
-            style={{ width: "267px", height: "100px", margin: "0 0 0 0" }}
+            style={{ width: "320px", height: "100px", margin: "0 0 0 0" }}
             data={data}
           >
             <Tooltip cursor={false} />

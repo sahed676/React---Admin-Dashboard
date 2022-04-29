@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { SectionContainer } from "./DashboardElements";
-
+import scrollreveal from "scrollreveal";
 import Navbar from "../Navbar/Navbar";
 import Analytics from "../Analytics/Analytics";
 import FAQ from "../FAQ/FAQ";
@@ -9,6 +9,26 @@ import Transfer from "../Transfer/Transfer";
 import Profile from "../Profile/Profile";
 
 const Dashboard = () => {
+  useEffect(() => {
+    const sr = scrollreveal({
+      origin: "bottom",
+      distance: "80px",
+      duration: 2000,
+      reset: false,
+    });
+    sr.reveal(
+      `
+      nav,
+      .row__one,
+      .row__two
+ `,
+      {
+        opacity: 0,
+        interval: 100,
+      }
+    );
+  }, []);
+
   return (
     <>
       <SectionContainer>
